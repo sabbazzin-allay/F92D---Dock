@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090d14">
+  <meta name="description" content="F92D — uma distribuição Linux pensada para o dia a dia. Projeto em desenvolvimento.">
+  <title>F92D — Linux for everyone.</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="F92D início">
+      <span class="brand-mark" aria-hidden="true"></span><span>F92D</span>
+    </a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#home" data-i18n="nav_home">Início</a>
+      <a href="#about" data-i18n="nav_about">Sobre</a>
+      <a href="#features" data-i18n="nav_features">Recursos</a>
+      <a href="#downloads" data-i18n="nav_downloads">Downloads</a>
+      <a href="#contact" data-i18n="nav_contact">Contato</a>
+    </nav>
+    <label class="language-wrap" aria-label="Selecionar idioma">
+      <span aria-hidden="true">◎</span>
+      <select id="language-select">
+        <option value="pt">Português</option>
+        <option value="en">English</option>
+        <option value="es">Español</option>
+        <option value="fr">Français</option>
+        <option value="de">Deutsch</option>
+        <option value="it">Italiano</option>
+        <option value="ru">Русский</option>
+        <option value="cy">Cymraeg</option>
+      </select>
+    </label>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <div class="status"><span class="status-dot"></span><span data-i18n="status">Em desenvolvimento</span></div>
+        <p class="eyebrow">LINUX DISTRIBUTION</p>
+        <h1>F92D<span class="period">.</span></h1>
+        <h2 data-i18n="hero_title">Uma nova experiência Linux está chegando.</h2>
+        <p class="lead" data-i18n="hero_text">Uma distribuição Linux pensada para o dia a dia, com foco em simplicidade, acessibilidade e compatibilidade com diferentes gerações de computadores.</p>
+        <div class="release-card">
+          <span class="calendar-icon" aria-hidden="true">▦</span>
+          <div><span class="release-label" data-i18n="release_label">Lançamento planejado</span><strong data-i18n="release_date">9 de novembro de 2026</strong></div>
+        </div>
+        <p class="small-note" data-i18n="hero_note">Estamos construindo algo especial. Obrigado por fazer parte dessa jornada!</p>
+        <div class="actions">
+          <a class="button primary" href="#about"><span data-i18n="learn_more">Saiba mais</span><span aria-hidden="true">↗</span></a>
+          <a class="button secondary" href="#about" data-i18n="about_project">Sobre o projeto</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="moon"></div>
+        <div class="mountain mountain-back"></div>
+        <div class="mountain mountain-mid"></div>
+        <div class="mountain mountain-front"></div>
+        <div class="art-glow"></div>
+      </div>
+    </section>
+
+    <section class="features section" id="features">
+      <article class="feature">
+        <div class="feature-icon" aria-hidden="true">▣</div>
+        <h3 data-i18n="feature_daily_title">Para o seu dia a dia</h3>
+        <p data-i18n="feature_daily_text">Uma distro versátil para estudos, trabalho, navegação e muito mais.</p>
+        <span class="feature-line"></span>
+      </article>
+      <article class="feature">
+        <div class="feature-icon" aria-hidden="true">▦</div>
+        <h3 data-i18n="feature_compat_title">Compatível com várias máquinas</h3>
+        <p data-i18n="feature_compat_text">O objetivo é atender diferentes gerações de computadores, respeitando os requisitos de cada versão.</p>
+        <span class="feature-line"></span>
+      </article>
+      <article class="feature">
+        <div class="feature-icon" aria-hidden="true">♧</div>
+        <h3 data-i18n="feature_easy_title">Fácil de usar</h3>
+        <p data-i18n="feature_easy_text">Uma experiência amigável, especialmente para quem está migrando do Windows para o Linux.</p>
+        <span class="feature-line"></span>
+      </article>
+      <article class="feature">
+        <div class="feature-icon" aria-hidden="true">☆</div>
+        <h3 data-i18n="feature_open_title">Projeto independente</h3>
+        <p data-i18n="feature_open_text">Desenvolvido com dedicação e transparência, com foco na comunidade.</p>
+        <span class="feature-line"></span>
+      </article>
+    </section>
+
+    <section class="notice section" id="about">
+      <div class="code-icon" aria-hidden="true">&lt;/&gt;</div>
+      <div class="notice-copy">
+        <h3 data-i18n="notice_title">O projeto ainda está em desenvolvimento</h3>
+        <p data-i18n="notice_text">Estamos trabalhando na construção da distro e do site oficial. Em breve, traremos novidades, documentação e downloads.</p>
+      </div>
+      <a class="button secondary notice-button" href="#contact"><span aria-hidden="true">♧</span><span data-i18n="stay_tuned">Fique por dentro</span></a>
+    </section>
+
+    <section class="downloads section" id="downloads">
+      <p class="eyebrow" data-i18n="downloads_eyebrow">CENTRAL DE DOWNLOADS</p>
+      <h2 data-i18n="downloads_title">Downloads em breve</h2>
+      <p data-i18n="downloads_text">As imagens de instalação ainda não estão disponíveis. Volte mais tarde para acompanhar o progresso do projeto.</p>
+      <span class="coming-soon"><span class="status-dot"></span><span data-i18n="coming_soon">Disponível futuramente</span></span>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="footer-brand">
+      <a class="brand" href="#home"><span class="brand-mark" aria-hidden="true"></span><span>F92D</span></a>
+      <p>Linux for everyone.</p>
+    </div>
+    <div class="footer-links">
+      <h4 data-i18n="quick_links">Links rápidos</h4>
+      <a href="#home" data-i18n="nav_home">Início</a>
+      <a href="#about" data-i18n="nav_about">Sobre</a>
+      <a href="#features" data-i18n="nav_features">Recursos</a>
+      <a href="#downloads" data-i18n="nav_downloads">Downloads</a>
+      <a href="#contact" data-i18n="nav_contact">Contato</a>
+    </div>
+    <div class="footer-social">
+      <h4 data-i18n="follow_project">Acompanhe o projeto</h4>
+      <p data-i18n="social_note">Os canais oficiais serão anunciados em breve.</p>
+      <p class="footer-motto" data-i18n="motto">Juntos por um Linux melhor.</p>
+    </div>
+    <div class="footer-meta">
+      <strong>F92D</strong>
+      <span data-i18n="status">Em desenvolvimento</span>
+      <span data-i18n="footer_release">Lançamento planejado: 9 de novembro de 2026</span>
+      <span class="footer-rule"></span>
+      <small>© 2026 F92D. <span data-i18n="rights">Todos os direitos reservados.</span></small>
+    </div>
+  </footer>
+</body>
+</html>
